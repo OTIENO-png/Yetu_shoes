@@ -208,3 +208,54 @@ header .icons a:hover {
 .home #next {
     right: 3rem;
 }
+/*social media links*/
+.cointainer{
+    align-items: center;
+    background-color: #666;
+    border-radius: 5px;
+}
+.fa{
+    font-size: 20px;
+    font-weight: 05;
+    padding: 5px;
+    border-radius: 50px;
+    
+}
+.fa-facebook-f:hover {
+    color: #0051ff;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+
+}
+
+.fa-instagram:hover {
+    color: fuchsia;
+}
+
+.fa-linkedin:hover {
+    color: #0072b1;
+
+}
+
+.fa-youtube:hover {
+    color: #c4302b;
+}
+
+.fa-google:hover {
+    color: #4285F4;
+}
+
+.fa-whatsapp:hover {
+    color: #25D366;
+}
+
+#dark-icon {
+    display: none;
+
+}
+
+.fa-telegram:hover {
+    color: #0088cc;
+}
