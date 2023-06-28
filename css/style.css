@@ -211,7 +211,7 @@ header .icons a:hover {
 /*social media links*/
 .cointainer{
     align-items: center;
-    background-color: #666;
+   /* background-color: #666;*/
     border-radius: 5px;
 }
 .fa{
@@ -258,4 +258,7 @@ header .icons a:hover {
 
 .fa-telegram:hover {
     color: #0088cc;
+}
+footer{
+        text-align: center;
 }
