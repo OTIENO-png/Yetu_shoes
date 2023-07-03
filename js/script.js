@@ -65,3 +65,4 @@ function addToCart() {
   // Add the new item to the cart
   cartItems.appendChild(newItem);
 }
+
