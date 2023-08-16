@@ -30,10 +30,10 @@
         <nav class="navbar">
         <a href="">Home</a>
         <a href="">Product</a>
-        <a href="">Fearured</a>
+        <a href="">Staffs</a>
         <a href="">contact</a>
       </nav>
-      
+
       <div class="icons">
         <a href="#"><i class="fa fa-heart"></i></a>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
@@ -387,58 +387,56 @@
         </div>
       </div>
     </section>
+
+    <div id="contact">
+    <form action="https://formsubmit.com/otienolubalo@gmail.com" method="post">
+      <fieldset>
+    
+        <legend><h3>CONTACT US ✆.</h3></legend>
+        <label>Name:</label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="hidden" name="next" value="https://">
+        <input type="email"><br><br>
+        <label for="message">Message</label>
+        <textarea id="message" rows="2" cols="40" placeholder="type your message" required></textarea><br>
+        <button onclick="myFunction(name)">SUBMIT</button>
+    
+        <p id="ouput"></p>
+    
+      </fieldset>
+    
+    </form>
+    </div> <br>
+
     <script src="js/script.js"></script>
     <footer>
       <div class="cointainer">
         <span class="icon"
-          ><a href="#"><i class="fa fa-linkedin" title="LinkedIn"></i></a
+          ><a href="#"><i class="fa fa-linkedin" title="LinkedIn" id="LinkedIn"></i></a
         ></span>
         <span class="icon"
-          ><a href="#"><i class="fa fa-facebook" title="Facebook"></i></a
+          ><a href="#"><i class="fa fa-facebook-square" title="Facebook"id="facebook"></i></a
         ></span>
         <span class="icon"
-          ><a href="#"><i class="fa fa-twitter" title="Twitter"></i></a
+          ><a href="#"><i class="fa fa-twitter" title="Twitter" id="twitter"></i></a
         ></span>
         <span class="icon"
-          ><a href="#"><i class="fa fa-youtube" title="Youtube"></i></a
+          ><a href="#"><i class="fa fa-youtube" title="Youtube" id="youtube"></i></a
         ></span>
-        <!-- <span class="icon"
+        <span class="icon"
           ><a
             href="https://api.whatsapp.com/send?phone=254788201306&text=Hello!
             Welcome to Yetu shoes,how can we help you?
-            "
-            ><i class="fa fa-whatsapp" title="whatsapp"></i></a
-        ></span> -->
-
-        <span class="icon"><a href=""><i class="fa fa-whatsapp" id="whatsapp" title="whatsapp"></i></a
-          ></span>
-        <span class="icon"
-          ><a href="#"><i class="fa fa-telegram" title="Telegram"></i></a
+            "><i class="fa fa-whatsapp" title="whatsapp" id="whatsapp"></i></a
         ></span>
         <span class="icon"
-          ><a href="#"><i class="fa fa-google" title="Google"></i></a
+          ><a href="#"><i class="fa fa-telegram" title="Telegram" id="telegram"></i></a
+        ></span>
+        <span class="icon"
+          ><a href="#"><i class="fa fa-google" title="Google" id="google"></i></a
         ></span>
       </div>
     </footer>
-
-
-    <script>
-      function sendWhatsAppMessage() {
-          // Replace "Hello welcome to Yetu shoes" 
-          var message = "Hello! Welcome Yetu Shoes how can we help you";
-
-          // Replace "1234567890" with your desired WhatsApp number
-          var phoneNumber = "+254788201306";
-
-          var encodedMessage = encodeURIComponent(message);
-          var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodedMessage;
-
-          window.open(whatsappURL);
-        }
-
-        var whatsappIcon = document.getElementById("whatsapp");
-        whatsapp.addEventListener("click", sendWhatsAppMessage);
-    </script>
-    
   </body>
 </html>
