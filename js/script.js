@@ -66,3 +66,20 @@ function addToCart() {
   cartItems.appendChild(newItem);
 }
 
+ // development button to display text and hide button for development.
+        $(document).ready(function () {
+                $("#bright-icon").click(function () {
+                    $("#dark-icon").show();
+                    $("#bright-icon").hide();
+                });
+
+            });
+        // used to hide text and  display button for development.
+            $(document).ready(function () {
+                $("#dark-icon").click(function () {
+                    $("#bright-icon").show();
+                    $("#dark-icon").hide();
+                               
+                });
+
+            });
