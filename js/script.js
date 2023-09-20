@@ -42,6 +42,7 @@ document.querySelectorAll('.featured-image-3').forEach(image_3 =>{
     });
 });
 
+
 // SHOPPING CART
 
 

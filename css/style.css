@@ -499,7 +499,7 @@ footer{
     text-align: center;
     display: block;
 }
-#twitter,
+#twitter-square,
 #facebook,
 #LinkedIn,
 #youtube,
@@ -516,7 +516,7 @@ footer{
     animation: animate 3s linear infinite;
     text-shadow: 0 0 50px #0072ff,0 0 50px #0072ff,0 0 50px #0072ff,0 0 50px #0072ff,0 0 50px #0072ff,0 0 50px #0072ff,0 0 50px #0072ff;
 }
-#twitter{
+#twitter-square{
     animation-delay: 0.5s;
 }
 #facebook {
@@ -593,32 +593,6 @@ body.bright-mode {
     animation-name: animatetop;
     animation-duration: 0.4s;
 }
-
-/* Add Animation */
-/* @-webkit-keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0;
-    }
-
-    to {
-        top: 0;
-        opacity: 1;
-    }
-}
-
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0;
-    }
-
-    to {
-        top: 0;
-        opacity: 1;
-    }
-} */
-
 /* The Close Button */
 .close {
     color: white;
@@ -650,3 +624,13 @@ body.bright-mode {
     background-color: #5cb85c;
     color: white;
 }
+  .social:hover {
+      filter: grayscale(0);
+      transition: 0.5s;
+      transition-delay: 20ms;
+      cursor: pointer;
+
+  }
+  .logo{
+    border-radius: 50%;
+  }
