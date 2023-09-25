@@ -39,6 +39,10 @@
         <a href="#"><i class="fa fa-heart"></i></a>
         <a href="#"><i class="fa fa-shopping-cart"></i></a>
         <a href=""><i class="fa fa-toggle-on"></i></a> 
+        <label class="switch">
+          <input type="checkbox" id="mode-switch">
+          <span class="slider round"></span>
+        </label>
       </div>
     </header>
 
@@ -436,7 +440,7 @@
     <form action="https://formsubmit.com/otienolubalo@gmail.com" method="post">
       <fieldset>
     
-        <legend><h3>CONTACT US ✆.</h3></legend>
+        <legend><h3>CONTACT US ✆:+254788201306/+254708653380.</h3></legend>
         <label>Name:</label>
         <input type="text" id="name"><br><br>
         <label for="email">Email:</label>
@@ -471,8 +475,7 @@
         ></span>
         <span class="icon"
           ><a
-            href="https://api.whatsapp.com/send?phone=254788201306&text=Hello!
-            Welcome to Yetu shoes,how can we help you?
+            href="https://api.whatsapp.com/send?phone=254788201306&text=Hello! Welcome to Yetu shoes,how can we help you?
             "><i class="fa fa-whatsapp" title="whatsapp" id="whatsapp"></i></a
         ></span>
         <span class="icon"
@@ -510,6 +513,14 @@
           modal.style.display = "none";
         }
       }
+      const modeSwitch = document.getElementById('mode-switch');
+   const body = document.body;
+
+   modeSwitch.addEventListener('change', () => {
+       body.classList.toggle('dark-mode');
+       body.classList.toggle('light-mode');
+   });
+
     </script>
 
   </body>
